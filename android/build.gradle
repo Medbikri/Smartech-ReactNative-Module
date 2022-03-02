@@ -48,7 +48,9 @@ repositories {
     // ref: https://www.baeldung.com/maven-local-repository
     mavenLocal()
 
-    maven { url 'http://artifacts.hansel.io/artifactory/android' }
+    maven { url 'http://artifacts.hansel.io/artifactory/android'
+            allowInsecureProtocol = true
+     }
     
     maven {
         // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
