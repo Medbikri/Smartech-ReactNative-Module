@@ -48,7 +48,7 @@ repositories {
     // ref: https://www.baeldung.com/maven-local-repository
     mavenLocal()
 
-    maven { url 'http://artifacts.hansel.io/artifactory/android'
+    maven { url 'https://artifacts.hansel.io/artifactory/android'
             allowInsecureProtocol = true
      }
     
